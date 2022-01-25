@@ -8,6 +8,7 @@
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
+    "test:clear": "jest --clearCache",
     "prepare": "husky install"
   },
   "keywords": [],
